@@ -1,0 +1,23 @@
+I"“<h1 id="born-in-cloud-native">Born in Cloud Native</h1>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">DeepNative</span><span class="p">:</span>
+    <span class="s">"We are specialized in Digital Transformation, DevOps, Cloud, and Cloud Native stacks. "</span>
+    <span class="n">age</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="s">"Deep Native Inc."</span>
+    <span class="n">description</span> <span class="o">=</span> <span class="s">"A DevOps, Cloud and Cloud-Native Stack Consulting Company"</span>
+    <span class="n">contact</span> <span class="o">=</span> <span class="s">""</span>
+
+
+<span class="k">def</span> <span class="nf">greet</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'Hello World!'</span><span class="p">)</span>
+
+
+<span class="k">print</span><span class="p">(</span><span class="s">"Age: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">DeepNative</span><span class="p">.</span><span class="n">age</span><span class="p">))</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"Name:"</span> <span class="o">+</span> <span class="n">DeepNative</span><span class="p">.</span><span class="n">name</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"Who we are: "</span> <span class="o">+</span> <span class="n">DeepNative</span><span class="p">.</span><span class="n">description</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">DeepNative</span><span class="p">.</span><span class="n">__doc__</span><span class="p">)</span>
+</code></pre></div></div>
+:ET
