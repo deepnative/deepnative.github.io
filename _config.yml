@@ -6,14 +6,14 @@
 
 # Site settings
 
-title: "Applin Premium Responsive Jekyll Theme"
-email: "themeix@gmail.com"
+title: "Deep Native Inc."
+email: "info@deepnative.io"
 description: >- # this means to ignore newlines until "baseurl:"
-  Appline Jekyll Theme For Mobile Apps Download Landing Page.
+  A Cloud Native Consulting Company.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://applin.netlify.com/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://deepnative.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: deepnative
+github_username:  deepnative
 logo: "/assets/images/header-logo.png"
 mailchimp-list: //redgadgets.us10.list-manage.com/subscribe/post?u=210acce5db69d3d4a04b0e25d&amp;id=08c6708f40"
 
