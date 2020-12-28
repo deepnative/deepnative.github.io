@@ -2,13 +2,42 @@
 layout: default
 ---
 
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
-<h1>{{ page.title }}</h1>
-
-<p class="view">by {{ page.author | default: site.author }}</p>
-
-{{content}}
-
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
+<div class="blog-area bg-color1 p-t-130 p-b-100">
+<div class="container">
+    <div class="blog-wrapper">   
+        <div class="row">
+            <div class="col-md-10 m-auto">
+            {% if page.post_image %}
+            <div class="blog-media m-b-30">
+                <img src="{{page.post_image}}" alt="{{page.title}}" />
+            </div>
+            {% endif %}
+            <div class="entry-content blog-spacing">
+             {{page.content}}
+            </div>
+            <div class="blog-share-tags blog-spacing">
+                {% if page.tags.size > 0 %}
+                <div class="blog-author-tags">
+                    <div class="list-inline blog-post-tags-area">
+						<li class="list-inline-item">Tags:</li>
+                        {% for tag in page.tags %}  
+						 <li class="list-inline-item"> <a class="text-capitalize" href="/tag/{{ tag }}">{{ tag }}</a>{% if forloop.last == false %} {% endif %}</li>
+						 {% endfor %}
+                    </div>
+                </div>
+				 {% endif %}
+                <div class="blog-author-share">
+                  {% include social_share.html %}
+                </div>
+            </div>
+            {% include author_info.html %}
+            {% include post_pagination.html %}
+            {% include latest_posts.html %}
+            <div class="comment-wrapper blog-spacing">
+              {% include disqus_comments.html %}
+            </div>
+            </div>
+        </div>
+    </div>
+ </div>
+</div>

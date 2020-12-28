@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="blog-area bg-color1 p-t-130 p-b-130">
+<div class="container">
+    <div class="blog-wrapper">
+    <div class="row">
+     {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
+  {% for post in filtered_posts %}
+
+            <div class="col-md-6">
+		
+            {% include post_content.html %}
+            </div>
+        
+ 
+        {% endfor %}
+        </div>
+        </div>
+    </div>
+</div>
+
