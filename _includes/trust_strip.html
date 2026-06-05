@@ -1,0 +1,12 @@
+<section class="dn-trust-strip" id="trust">
+  <div class="container">
+    <ul class="dn-trust-list list-inline" data-aos="fade-up">
+      {% for badge in site.data.site.trust %}
+      <li class="list-inline-item dn-trust-item">
+        <i class="fas fa-shield-halved" aria-hidden="true"></i>
+        <span>{{ badge }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

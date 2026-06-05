@@ -1,43 +1,16 @@
- {% if page.url == "/" %}
- <!-- Navigation For Home Page -->
-<nav class="themeix-navbar">
-    <ul class="slimmenu main-menu">
-        <li><a href="{{site.url}}">Home</a></li>
-        <li><a href="#feature" class="js-scroll-trigger">Feature</a></li>
-        <li><a href="#pricing" class="js-scroll-trigger">Pricing</a></li>
-        <li>
-            <a href="#" >Pages</a>
-            <ul>
-            <li><a href="/pages/blog">Blog</a></li>
-            <li><a href="/pages/contact">Contact</a></li>
-            <li><a href="/pages/authors">Authors</a></li>
-            <li><a href="/pages/about">About</a></li>
-            </ul>
-        </li>
-		<li><a href="/pages/blog">Blog</a></li>		
-        <li><a href="/pages/contact" class="js-scroll-trigger">Contact</a></li>
-    </ul>
+{%- assign home = site.baseurl | append: "/" -%}
+{%- if page.url == "/" -%}
+  {%- assign prefix = "" -%}
+{%- else -%}
+  {%- assign prefix = home -%}
+{%- endif -%}
+<nav class="themeix-navbar" aria-label="Primary">
+  <ul class="slimmenu main-menu">
+    <li><a href="{{ home }}">Home</a></li>
+    <li><a href="{{ prefix }}#outcomes" class="js-scroll-trigger">Outcomes</a></li>
+    <li><a href="{{ prefix }}#capabilities" class="js-scroll-trigger">Capabilities</a></li>
+    <li><a href="{{ prefix }}#proof" class="js-scroll-trigger">Proof</a></li>
+    <li><a href="{{ prefix }}#engagement" class="js-scroll-trigger">Engagement</a></li>
+    <li><a href="{{ prefix }}#contact" class="js-scroll-trigger">Contact</a></li>
+  </ul>
 </nav>
- {% else %}
-  <!-- Navigation For Inner Pages -->
-<nav class="themeix-navbar">
-    <ul class="slimmenu main-menu">
-        <li><a href="{{site.url}}">Home</a></li>
-
-        <li>
-            <a href="#" >Pages</a>
-            <ul>
-            <li><a href="/welcome-to-jekyll">Blog Details</a></li>
-            <li><a href="/authors/themeix">Author</a></li>
-            <li><a href="/tag/app">Tag</a></li>
-            <li><a href="/category/jekyll">Category</a></li>
-
-            </ul>
-        </li>
-		<li><a href="/pages/blog">Blog</a></li>
-        <li><a href="/pages/authors" class="js-scroll-trigger">Authors</a></li>		
-        <li><a href="/pages/contact" class="js-scroll-trigger">Contact</a></li>
-    </ul>
-</nav>
- {% endif %}
- 

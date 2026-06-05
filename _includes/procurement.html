@@ -1,0 +1,30 @@
+<section class="feature-area bg-color2 p-t-130 p-b-100" id="engagement">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="section-title m-b-50" data-aos="fade-up">
+          <h2 class="big-font2">Engagement paths that fit enterprise delivery.</h2>
+          <p>{{ site.data.site.procurement.intro }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      {% for option in site.data.site.procurement.options %}
+      <div class="col-md-6">
+        <div class="dn-procurement-card" data-aos="fade-up">
+          <div class="dn-procurement-card__icon">
+            <i class="fas {{ option.icon }} fa-2x" aria-hidden="true"></i>
+          </div>
+          <h4 class="heading-4">{{ option.title }}</h4>
+          <p>{{ option.body }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row m-t-30">
+      <div class="col-md-12">
+        <p class="dn-procurement-note">{{ site.data.site.procurement.pricing_note }}</p>
+      </div>
+    </div>
+  </div>
+</section>

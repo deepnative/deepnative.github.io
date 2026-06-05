@@ -1,0 +1,35 @@
+- title: "Cloud modernization"
+  icon: "fa-cloud"
+  body: >-
+    Azure and AWS application modernization, Kubernetes migration, API
+    integration, resilient workload design, and practical cloud-native delivery.
+
+- title: "Data & AI engineering"
+  icon: "fa-database"
+  body: >-
+    Data pipelines, analytics platforms, AI-enabled workflow support,
+    model-to-production delivery, and decision-support tooling.
+
+- title: "Application & product delivery"
+  icon: "fa-code"
+  body: >-
+    Web applications, internal tools, delivery dashboards, workflow products,
+    and modernization slices that move from discovery to shipped software.
+
+- title: "Payments & integration"
+  icon: "fa-money-check-dollar"
+  body: >-
+    Banking payments delivery, enterprise integration, event-driven interfaces,
+    and dependable delivery across regulated financial-services systems.
+
+- title: "Platform engineering & DevOps"
+  icon: "fa-server"
+  body: >-
+    CI/CD, infrastructure as code, GitOps, observability, release automation,
+    secure deployment, and operating-model support.
+
+- title: "Delivery leadership"
+  icon: "fa-people-group"
+  body: >-
+    Accountable delivery leads, architects, engineers, QA, and domain specialists
+    organized as one team across onshore and APAC offshore capacity.

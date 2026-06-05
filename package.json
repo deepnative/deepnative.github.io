@@ -1,55 +1,51 @@
 {
-	"name": "jekyll-applin",
-	"version": "2.0.1",
-	"description": "Write the theme description",
-	"scripts": {
-		"dev": "gulp production",
-		"zip": "gulp zip"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/themeix/gulp-quickstart-pack.git"
-	},
-	"author": {
-		"name": "Themeix",
-		"email": "support@themeix.com",
-		"url": "https://themeix.com"
-	},
-	"keywords": [
-		"starter",
-		"template",
-		"themeix"
-	],
-	"bugs": {
-		"url": "https://github.com/themeix/gulp-quickstart-pack/issues"
-	},
-	"dependencies": {
-		"concat": "^3.0.0",
-		"gulp-autoprefixer": "^6.1.0",
-		"gulp-clean-css": "^4.2.0",
-		"gulp-concat": "^2.6.1",
-		"fs": "0.0.2",
-		"gulp-jshint": "^2.1.0",
-		"gulp-plumber": "^1.2.1",
-		"gulp-rename": "^1.4.0",
-		"gulp-replace": "^1.0.0",
-		"gulp-sass": "^4.0.2",
-		"gulp-size": "^3.0.0",
-		"gulp-zip": "^5.0.0",
-		"gulp-uglify": "^3.0.2",
-		"gulp-terser": "^1.2.0",
-		"ansi-colors": "^3.2.4",
-		"jshint": "^2.10.2",
-		"jshint-stylish": "^2.2.1",
-		"run-sequence": "^2.2.1",
-		"gulp-copy": "^4.0.1",
-		"gulp-string-replace": "^1.1.2",
-		"gulp-inject": "^5.0.2",
-		"del": "^4.1.1"
-	},
-	"devDependencies": {
-		"gulp": "^4.0.0",
-		"node-sass": "^4.10.0"
-	},
-	"license": "MIT"
+  "name": "deepnative-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Deep Native — landing site (deepnative.io)",
+  "scripts": {
+    "dev": "bundle exec jekyll serve --port 4000 --livereload",
+    "build": "bundle exec jekyll build --strict_front_matter --trace",
+    "test:e2e": "playwright test",
+    "test:a11y": "pa11y-ci --config .pa11yci.json _site/index.html",
+    "test:lh": "lhci autorun",
+    "lint:js": "jshint assets/js/app.js",
+    "gulp:assets": "gulp production",
+    "gulp:zip": "gulp zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepnative/deepnative.github.io.git"
+  },
+  "author": "Deep Native Inc.",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@lhci/cli": "^0.13.0",
+    "@playwright/test": "^1.45.0",
+    "audit-ci": "^7.0.0",
+    "pa11y-ci": "^3.1.0",
+    "jshint": "^2.13.6",
+    "jshint-stylish": "^2.2.1"
+  },
+  "optionalDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-size": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-terser": "^1.2.0",
+    "gulp-zip": "^5.0.0",
+    "gulp-copy": "^4.0.1",
+    "gulp-string-replace": "^1.1.2",
+    "gulp-inject": "^5.0.2",
+    "ansi-colors": "^3.2.4",
+    "node-sass": "^4.10.0",
+    "del": "^4.1.1"
+  }
 }

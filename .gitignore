@@ -1,0 +1,24 @@
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Bundler
+.bundle/
+vendor/
+
+# Node
+node_modules/
+
+# Test artifacts
+playwright-report/
+test-results/
+.lighthouseci/
+.superpowers/
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/

@@ -1,0 +1,64 @@
+hero:
+  eyebrow: "Toronto-based · Microsoft Solutions Partner"
+  headline: "Regulated modernization delivery, from strategy to shipped systems."
+  subhead: >-
+    Deep Native is a Toronto-based engineering consultancy for regulated
+    enterprises that need cloud, data, AI, payments, platform, and application
+    modernization delivered by one accountable team.
+  primary_cta:
+    label: "Book a discovery call"
+    href: "mailto:info@deepnative.io?subject=Deep%20Native%20discovery%20call"
+  secondary_cta:
+    label: "See delivery proof"
+    href: "#proof"
+
+trust:
+  - "Microsoft Solutions Partner · Digital & App Innovation (Azure)"
+  - "Microsoft Solutions Partner · Data & AI (Azure)"
+  - "Toronto-based · onshore + APAC offshore delivery"
+
+framework:
+  title: "AML Open Framework"
+  tagline: "A public reference project for audit-replayable financial-crime controls, included as proof of regulated-domain engineering depth."
+  bullets:
+    - "Open-source — no proprietary lock-in; runs inside your perimeter."
+    - "Spec-driven controls with peer review and reproducible execution."
+    - "Append-only audit ledger with SHA-256 hash chain — audit-replayable."
+    - "Preserves existing AML systems; integrates rather than rips and replaces."
+    - "Built on Azure / AWS, Kubernetes, GitOps, and modern data tooling."
+  link:
+    label: "View on GitHub"
+    href: "https://github.com/deepnative/aml_open_framework"
+
+procurement:
+  intro: >-
+    Two flexible ways to engage Deep Native when the work needs senior delivery
+    ownership, practical engineering depth, and procurement-friendly scope.
+  options:
+    - title: "Fixed pilot SOW"
+      body: >-
+        A bounded, fixed-scope pilot that lands a specific modernization
+        outcome — a cloud migration slice, data product, integration, delivery
+        dashboard, or platform improvement. Transparent deliverables, defined
+        exit criteria, and audit-aware execution.
+      icon: "fa-flag-checkered"
+    - title: "End-to-end resource augmentation"
+      body: >-
+        Flexible access to engineers, data scientists, developers, architects,
+        QA, delivery leads, and domain specialists — onshore plus APAC offshore,
+        with one accountable delivery lead and no third-party markup chains.
+      icon: "fa-people-group"
+  pricing_note: >-
+    Competitive blended onshore + APAC offshore rates. Full rate card available
+    on request.
+
+contact:
+  email: "info@deepnative.io"
+  location: "Toronto, Canada"
+  github: "https://github.com/deepnative"
+  linkedin: "https://www.linkedin.com/company/deep-native"
+  cta_label: "Start a conversation"
+
+footer:
+  tagline: "Regulated-industry modernization · Cloud, data, AI, platform, payments, and product delivery."
+  disclaimer: "Representative delivery credentials are anonymized for public disclosure. Named-client references are available under NDA."

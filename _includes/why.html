@@ -1,0 +1,24 @@
+<section class="feature-area bg-color1 p-b-100" id="outcomes">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="section-title m-b-50" data-aos="fade-up">
+          <h2 class="big-font2">Built for modernization programs that have to land.</h2>
+          <p>Deep Native brings delivery leadership, engineering depth, and regulated-industry discipline into one practical team.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="dn-pill-list list-inline" data-aos="fade-up">
+          {% for pill in site.data.why %}
+          <li class="list-inline-item dn-pill">
+            <i class="fas fa-circle-check" aria-hidden="true"></i>
+            <span>{{ pill }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,43 @@
+<section class="feature-area bg-color1 p-t-130 p-b-100" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="section-title m-b-50" data-aos="fade-up">
+          <h2 class="big-font2">Start a conversation.</h2>
+          <p>Modernization scoping, delivery-capacity discussions, pilot SOWs, or rate-card requests — all routed through one inbox and answered by a delivery lead.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="dn-contact-card" data-aos="fade-up">
+          <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          <h4 class="heading-4">Email</h4>
+          <a href="mailto:{{ site.data.site.contact.email }}">{{ site.data.site.contact.email }}</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="dn-contact-card" data-aos="fade-up">
+          <i class="fas fa-location-dot fa-2x" aria-hidden="true"></i>
+          <h4 class="heading-4">Based in</h4>
+          <span>{{ site.data.site.contact.location }}</span>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="dn-contact-card" data-aos="fade-up">
+          <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          <h4 class="heading-4">Open source</h4>
+          <a href="{{ site.data.site.contact.github }}" rel="noopener" target="_blank">github.com/deepnative</a>
+        </div>
+      </div>
+    </div>
+    <div class="row m-t-50">
+      <div class="col-md-12 text-center">
+        <a href="mailto:{{ site.data.site.contact.email }}?subject=Deep%20Native%20discovery%20call"
+           class="btn btn-primary dn-cta-primary">
+          {{ site.data.site.contact.cta_label }}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
