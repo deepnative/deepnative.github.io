@@ -1,0 +1,366 @@
+# Consultant Profiles - Risk Assessment Data & Databricks Delivery
+
+> Confidential candidate profiles - for client evaluation only.
+
+## Candidate Summary
+
+| Candidate | Proposed Role | Databricks / Spark | Risk & Data Domain | Positioning |
+|---|---|---|---|---|
+| **Boyang (Bryan) Li** | Senior Data / Analytics Engineer | Hands-on: Databricks / PySpark, Apache Spark, dbt, Azure Data Factory | Fraud analytics, credit risk scoring, model monitoring and governance | Senior data platform and risk analytics engineering |
+| **Cynthia Yang** | Data Engineer / Risk Data Analyst | Working knowledge: Databricks, Spark SQL, Delta Lake; Fabric Data Engineer certified; hands-on Synapse and ETL | Counterparty credit risk model validation, data lineage, input / output reconciliation; FRM | Primary - risk validation, lineage and reconciliation |
+| **Hongliang Wang** | Platform Engineer within the data team | Ramp-up required | Digital banking platforms, release governance, DevSecOps controls | Engineering practice, CI/CD and release governance |
+| **Shun Huo** | Data Analyst - Risk Assessment & AML Data | Hands-on: Databricks SQL, Spark SQL, Notebooks, Delta Lake medallion layers | AML / Transaction Monitoring, KYC / CDD, data quality and reconciliation | Primary - Databricks analysis and AML data quality |
+
+## Commercial Notes (all candidates)
+
+| Item | Detail |
+|---|---|
+| **Engagement Model** | Contract consultant, full-time equivalent |
+| **Work Location** | Greater Toronto Area - hybrid or onsite as required |
+| **Availability** | To be confirmed |
+| **Rate** | On request |
+| **References** | Available on request |
+
+---
+
+## Boyang (Bryan) Li
+
+_Senior Data & Machine Learning Engineer - Risk Analytics, Data Platforms & Governance_
+
+### Profile Snapshot
+
+| Item | Detail |
+|---|---|
+| **Proposed Role** | Senior Data / Analytics Engineer - Risk Analytics and Data Platform Engineering |
+| **Location** | Toronto, Ontario |
+| **Experience** | 12+ years in software, data and machine learning engineering, the last 9 focused on financial services (payments, banking, credit risk), with distributed data engineering on Spark / Databricks throughout |
+| **Core Platform** | Databricks / PySpark, Apache Spark, Azure Data Factory, Snowflake, SQL / T-SQL, dbt, Python |
+| **Domain Knowledge** | Fraud analytics, credit risk scoring, model monitoring and governance, chargeback analytics, regulated banking model deployment |
+| **Working Style** | Standalone technical consultant - turns ambiguous business problems into system designs, working prototypes, implementation plans and operational controls |
+| **Education** | Master of Management Analytics (Queen's University); BSc Computer Science, Machine Learning & AI stream (University of Toronto) |
+
+### Engagement Fit
+
+| Requirement | Demonstrated Experience |
+|---|---|
+| **Databricks & Spark** | Databricks and PySpark processing for a large enterprise migration, paired with Azure Data Factory cross-premise ingestion; Spark / PySpark is a primary day-to-day engineering tool. |
+| **Data engineering** | Builds distributed pipelines end to end: ingestion, transformation, dbt modelling, incremental sync, data validation and lineage across batch and event-oriented workloads. |
+| **Risk assessment analytics** | Designed end-to-end fraud investigation analytics connecting payment events, behavioural features, risk scoring, analyst cases and monitoring; supported credit risk assessment and delinquency prediction for credit card products. |
+| **Azure platform** | Azure Data Factory, Azure Storage, Event Grid, API Management and PrivateLink within regulated payment and banking environments. |
+| **SQL depth** | SQL / T-SQL and Snowflake engineering, feature analyses using SQL-oriented workflows, statistical anomaly signals and velocity metrics. |
+| **Data quality & controls** | Data validation, leakage prevention, synthetic-data controls, feature versioning, calibration and segment performance monitoring. |
+| **Governance & auditability** | Snowflake RBAC with least-privilege inheritance across multiple environments, entitlements and auditability; model governance in a high-compliance banking context. |
+| **Agile engineering practice** | Terraform and GitHub Actions infrastructure-as-code with state management, protected version controls and automated CI/CD workflows. |
+| **Stakeholder engagement** | Partnered with risk and engineering teams to translate complex signals into operational decision-making at scale; independent technical discovery and delivery. |
+
+### Technical Skills
+
+| Area | Skills & Tools |
+|---|---|
+| **Risk & ML Systems** | Fraud feature engineering, graph-derived behavioural signals, anomaly detection, chargeback analytics, risk scoring, model monitoring, explainability, leakage prevention |
+| **Distributed Data Engineering** | Apache Spark, PySpark, Databricks, Snowflake, SQL / T-SQL, dbt, data validation, incremental sync, lineage, batch and event-oriented pipelines |
+| **Cloud & Platform** | Microsoft Azure, Azure Databricks, Azure Data Factory, Azure API Management, FastAPI, Azure Storage, Event Grid, PrivateLink |
+| **Security & Governance** | Snowflake RBAC, entitlements, least-privilege inheritance, auditability, ML model governance |
+| **Delivery & Automation** | Terraform, GitHub Actions, CI/CD, infrastructure as code, state management, protected version control |
+| **Analytics & Applications** | Python, Jupyter, Streamlit, graph analytics, investigator workflows, payment transaction modelling |
+
+### Selected Engagements
+
+#### Canadian Payment Processing Company - Senior Machine Learning Engineer
+
+**Environment:** Databricks / PySpark | Azure Data Factory | Snowflake | Apache Spark | Python | SQL | Terraform | GitHub Actions
+
+- Designed an end-to-end fraud investigation MVP connecting payment events, graph relationships, behavioural features, risk scoring, analyst cases, AI-assisted summaries and monitoring.
+- Defined explainable fraud features including shared-device fan-out, chargeback density, merchant-device-card bridges, sudden merchant bursts, geographic mismatch and fraud-ring migration patterns.
+- Built and evaluated feature analyses using Python and SQL-oriented workflows, including RFM velocity with exponential decay, IP geography and billing mismatch and cyclical transaction-time anomaly signals.
+- Designed a monitoring and governance layer covering feature drift, alert volume, delayed chargeback feedback, segment performance, calibration, feature versioning and leakage controls.
+- Designed the modernisation path for a large SQL Server to Snowflake migration spanning multiple on-premise and cloud data sources, moving ingestion onto Azure Data Factory with Databricks / PySpark processing.
+- Implemented a multi-environment RBAC model using least-privilege inheritance, administered through a Terraform and GitHub Actions infrastructure-as-code framework.
+
+#### Major Commercial Bank (Asia) - Machine Learning Platform Lead
+
+**Environment:** Python | Spark | Enterprise Data Warehouse | Model Serving Platform
+
+- Led the design and delivery of an internal model serving platform, enabling reliable deployment from experimentation into regulated production environments.
+- Engineered scalable data pipelines and feature generation frameworks integrated with enterprise data warehouses for consistent model development.
+- Supported the full analytics lifecycle for credit card products, including automated approval, credit risk assessment and delinquency prediction.
+- Owned model monitoring systems addressing data drift and stability, maintaining governance in a high-compliance banking context.
+- Partnered with risk and engineering teams to translate complex signals into operational decision-making at scale.
+
+#### Global Automotive Manufacturer - Senior Software Engineer
+
+**Environment:** Backend Web Services | NLP Integration
+
+- Developed production-grade web services and AI-enabled demonstrators by integrating third-party natural language capabilities for in-vehicle systems.
+- Strengthened core backend engineering practices and improved delivery timelines for AI-integrated software components.
+
+#### Earlier Engagements - Wealth Management Firm and Canadian Media Company
+
+**Environment:** Software Engineering | Technical Leadership
+
+- Software engineering and technical lead roles spanning wealth management platform delivery and enterprise media systems.
+
+### Education & Recognition
+
+| Item | Detail |
+|---|---|
+| **Education** | Master of Management Analytics - Queen's University (data analytics and AI applications in business); BSc Computer Science - University of Toronto (machine learning and AI stream); Ontario College Advanced Diploma, Computer Programming Analyst - Conestoga College |
+
+---
+
+## Cynthia Yang
+
+_Cloud & Data Engineer - Risk Model Validation, Azure Data Platform and Infrastructure Automation_
+
+### Profile Snapshot
+
+| Item | Detail |
+|---|---|
+| **Proposed Role** | Data Engineer / Risk Data Analyst - Azure data platform engineering with risk model validation and controls background |
+| **Location** | Toronto, Ontario |
+| **Experience** | Azure cloud and data platform engineering, risk model validation in a Big-Five bank, and full-stack data-driven development |
+| **Core Platform** | Microsoft Azure - Databricks, Synapse Analytics, Microsoft Fabric, Spark SQL, Delta Lake, Terraform, Key Vault, RBAC, Managed Identities, Private Endpoints |
+| **Domain Knowledge** | Counterparty credit risk model validation, model methodology and implementation review, data lineage investigation, input / output reconciliation, limitations and remediation documentation |
+| **Certifications** | Microsoft Certified: Fabric Data Engineer Associate; Azure Solutions Architect Expert; Azure Administrator Associate; Certified Financial Risk Manager (FRM, GARP) |
+| **Education** | MSc Finance - Illinois Institute of Technology; BEcon - Huazhong University of Science and Technology |
+
+### Engagement Fit
+
+| Requirement | Demonstrated Experience |
+|---|---|
+| **Risk assessment & validation** | Validated counterparty credit risk models in a Big-Five bank: assessed model methodology, implementation accuracy, data inputs and exposure calculations, and documented limitations, controls and remediation actions. |
+| **Data lineage & reconciliation** | Partnered with model owners and technology teams to investigate data lineage and reconcile model inputs against outputs - directly aligned to lineage evidence and reconciliation work on a risk assessment cycle. |
+| **Python & SQL analytics** | Reusable Python workflows with Pandas and NumPy for data preprocessing, model testing, performance analysis and validation reporting; statistical validation across large risk datasets including anomaly identification and feature sensitivity. |
+| **Azure data platform** | Addresses data-related onboarding for ETL pipelines and Azure Synapse - validating cloud dependencies, environment-specific configurations and integration readiness. |
+| **Databricks & Spark** | Working knowledge of Azure Databricks, Spark SQL and Delta Lake, backed by the Microsoft Fabric Data Engineer Associate certification; production Databricks pipeline delivery would be new on this engagement. |
+| **Data modelling & SQL depth** | Relational schema design, data modelling, migration, cleansing and SQL query optimisation, improving query efficiency by 30%. |
+| **Governance & controls** | Implements Azure security and governance controls using Key Vault, RBAC, Managed Identities and Private Endpoints to protect configurations, secrets and service connectivity. |
+| **Infrastructure as code** | Provisions and manages Azure resources using Terraform and Terraform Cloud with reusable infrastructure-as-code workflows and version-controlled environments. |
+| **Reporting to stakeholders** | Produced validation reports with visualisations that translated complex analytical findings into actionable recommendations, reducing review cycles. |
+
+### Technical Skills
+
+| Area | Skills & Tools |
+|---|---|
+| **Data Engineering** | Azure Databricks, Azure Synapse Analytics, Microsoft Fabric, Spark SQL, Delta Lake, Python, SQL, ETL pipeline dependencies |
+| **Risk & Model Validation** | Counterparty credit risk models, methodology and implementation review, exposure calculations, statistical validation, anomaly detection, benchmarking, model limitations and remediation |
+| **Analytics in Python** | Pandas, NumPy, Matplotlib, reusable validation workflows, data preprocessing, performance analysis, validation reporting |
+| **Cloud Infrastructure** | Microsoft Azure, Terraform, Terraform Cloud, Azure Virtual Machines, Key Vault, RBAC, Managed Identities, Private Endpoints |
+| **Databases & Development** | MySQL, Redis, TypeScript, React, Node.js, REST APIs, Git, Linux |
+| **Migration & Onboarding** | Application dependency assessment, target infrastructure provisioning, workload transition, post-migration validation, enterprise cloud onboarding |
+
+### Selected Engagements
+
+#### Canadian Digital Bank - Cloud Engineer
+
+**Environment:** Microsoft Azure | Terraform & Terraform Cloud | Azure Synapse | ETL Pipelines | Key Vault | RBAC
+
+- Provisions and manages Azure resources using Terraform and Terraform Cloud, applying reusable infrastructure-as-code workflows to maintain consistent cloud environments.
+- Addresses data-related onboarding requirements for ETL pipelines and Azure Synapse by validating cloud dependencies, environment-specific configurations and integration readiness.
+- Executes virtual machine migrations including application dependency assessment, target infrastructure provisioning, workload transition coordination and post-migration validation.
+- Supports cloud onboarding of enterprise applications by coordinating infrastructure requirements, environment configurations, access controls and service connectivity.
+- Implements Azure security and governance controls using Key Vault, RBAC, Managed Identities and Private Endpoints to protect application configurations, secrets and service connectivity.
+
+#### Canadian Big-Five Bank - Manager, Model Validation
+
+**Environment:** Python | SQL | Pandas | NumPy | Matplotlib | Risk Analytics
+
+- Validated counterparty credit risk models using Python, SQL and analytical tools, assessing model methodology, implementation accuracy, data inputs and exposure calculations.
+- Developed reusable Python workflows with Pandas and NumPy for data preprocessing, model testing, performance analysis and validation reporting, improving validation efficiency.
+- Applied statistical validation techniques to large risk datasets, identifying anomalies, evaluating features and risk-factor sensitivity and benchmarking model outputs.
+- Partnered with model owners and technology teams to investigate data lineage, reconcile model inputs and outputs, and document limitations, controls and remediation actions.
+- Produced validation reports with visualisations that translated complex analytical findings into actionable recommendations, reducing review cycles.
+
+#### IT Solutions Provider - Full Stack Developer
+
+**Environment:** TypeScript | React | Node.js | MySQL | Redis | REST APIs
+
+- Designed relational schemas and performed data modelling, migration, cleansing and SQL query optimisation, improving query efficiency by 30% and reducing response times.
+- Built data-driven features and RESTful backend services to ingest, transform and serve transactional data reliably.
+- Implemented caching and database optimisation strategies, improving API response time and system performance under high traffic.
+- Participated across the full delivery lifecycle including requirements, testing, deployment and production support.
+
+### Education & Recognition
+
+| Item | Detail |
+|---|---|
+| **Education** | Master of Science in Finance - Illinois Institute of Technology, Chicago; Bachelor of Economics - Huazhong University of Science and Technology, Wuhan |
+| **Certifications** | Microsoft Certified: Fabric Data Engineer Associate; Microsoft Certified: Azure Solutions Architect Expert; Microsoft Certified: Azure Administrator Associate; Certified Financial Risk Manager (FRM) - GARP |
+
+---
+
+## Hongliang Wang
+
+_Platform Engineer - Data Pipeline Automation, CI/CD and Release Governance_
+
+### Profile Snapshot
+
+| Item | Detail |
+|---|---|
+| **Proposed Role** | Platform Engineer within a data engineering team - pipeline automation, CI/CD, release governance and environment controls, with ramp-up onto Databricks and Spark |
+| **Location** | Toronto, Ontario |
+| **Experience** | 7+ years in cloud-native software engineering and DevOps, largely in Canadian banking environments |
+| **Core Platform** | GitHub / GitHub Actions, CI/CD pipelines, Terraform, Kubernetes, Docker, Azure and GCP; Python and SQL (Oracle, MySQL) |
+| **Domain Knowledge** | Digital banking platforms, enterprise cloud migration, DevSecOps controls, artifact governance, security policy enforcement and auditable release processes |
+| **Working Style** | Bridges software engineering and DevOps / SRE; mentors developers on architectural standards and pipeline practice |
+| **Education** | Bachelor of Software Engineering Technology - McMaster University |
+
+### Engagement Fit
+
+| Requirement | Demonstrated Experience |
+|---|---|
+| **Pipeline automation** | Designs and operates automated build, test and release pipelines in GitHub Actions, including artifact repository integration, curation rules and automated security policy gates - directly transferable to orchestrating and productionising data workflows. |
+| **Python & SQL foundations** | Python and SQL are working languages; hands-on with Oracle SQL and MySQL in enterprise banking systems. |
+| **Environment & release governance** | Built governed, auditable promotion paths across environments for multi-application migrations, with version control discipline and security scanning embedded in the pipeline. |
+| **Infrastructure as code** | Terraform and Kubernetes for reproducible, version-controlled infrastructure - the same control model applied to data platform provisioning. |
+| **Cloud migration in banking** | Contributed to a zero-incident Azure cloud migration of core digital banking workloads, partnering with cloud operations and leadership on infrastructure security and DevOps strategy. |
+| **Agile delivery practice** | Mentors developers on architectural standards and CI/CD practice; works across engineering and operations to shorten and stabilise delivery cycles. |
+| **Databricks & Spark** | No prior Databricks, Spark or analytics engineering experience. Proposed as a platform engineer alongside the data team, with a defined ramp-up period on Databricks, Spark SQL and PySpark. |
+
+### Technical Skills
+
+| Area | Skills & Tools |
+|---|---|
+| **Languages** | Python, SQL, Java, TypeScript / JavaScript |
+| **Cloud & Infrastructure** | GCP, Azure, Kubernetes, Docker, CI/CD pipelines, Git / GitHub, GitHub Actions |
+| **DevSecOps** | JFrog Artifactory, custom repositories, curation rules, Xray security policies, pipeline security gates |
+| **Backend & Microservices** | Spring Boot, Node.js, Express, microservices, backend-for-frontend architecture, RESTful APIs |
+| **Frontend Frameworks** | Angular, React, Redux, Webpack, responsive design |
+| **Databases** | Oracle SQL, MySQL |
+| **Ramp-up Required** | Databricks, Spark SQL, PySpark, Delta Lake, analytics engineering practice |
+
+### Selected Engagements
+
+#### Cloud & Platform Consultancy - DevOps Consultant
+
+**Environment:** Azure | Kubernetes | GitHub Actions | JFrog Artifactory & Xray
+
+- Contributed to a zero-incident Azure cloud migration for core digital banking workloads.
+- Integrated JFrog Artifactory into GitHub Actions with custom repositories, curation rules and Xray security policies to enable governed multi-application migrations.
+- Strengthened platform stability using Kubernetes best practice while partnering with cloud operations and leadership on infrastructure security and DevOps strategy.
+
+#### Canadian Direct Bank - Senior Software Engineer
+
+**Environment:** Node.js | Angular | Microservices | CI/CD | Kubernetes
+
+- Engineered Node.js backend-for-frontend services and optimised core gateway microservices, improving API response efficiency by 10% and maintaining fault tolerance during peak traffic.
+- Led enterprise Angular upgrades and migrated legacy systems to a content microservices architecture, improving render performance and reducing deployment cycle times by 40%.
+- Co-led digital identity verification SDK integrations, increasing client onboarding rates by 17%.
+- Mentored developers on architectural standards and CI/CD pipeline practice.
+
+#### Canadian Regional Bank - Full-Stack Engineer
+
+**Environment:** React | Webpack | Payment APIs | Design Systems
+
+- Governed the evolution of an enterprise React UI component library, enforcing consistent user experience, accessibility standards and code reusability across multiple digital banking products.
+- Integrated third-party donation and payment APIs into a multi-tier platform, improving payment processing reliability and transaction flows.
+- Planned and executed a core React and Webpack upgrade, improving bundle optimisation and reducing front-end load times.
+
+#### E-Commerce Retailer - Web Engineer
+
+**Environment:** Web Architecture | Payment Gateways | Analytics & Tag Management
+
+- Revamped core web architecture and integrated secure payment gateways, analytics and tag management, contributing to a 20% increase in online sales conversions.
+
+### Education & Recognition
+
+| Item | Detail |
+|---|---|
+| **Education** | Bachelor of Software Engineering Technology - McMaster University; Computer Engineering Technology Diploma (with Honours) - Seneca College |
+| **Recognition** | First place, RU Hacks hackathon - smart parking mobile application using React Native, IoT integration and cloud vision APIs for real-time spot detection |
+
+---
+
+## Shun Huo
+
+_Data Analyst / BI Consultant - Risk Data Analytics, AML & Transaction Monitoring_
+
+### Profile Snapshot
+
+| Item | Detail |
+|---|---|
+| **Proposed Role** | Data Analyst - Risk Assessment & AML Data Analytics (Azure Databricks) |
+| **Location** | Richmond Hill, Ontario (Greater Toronto Area) |
+| **Experience** | 10 years enterprise software development, including 2 years hands-on Databricks data analytics and engineering and 5 years enterprise platform (CRM) development |
+| **Core Platform** | Azure Databricks - Databricks SQL, Spark SQL, PySpark, Notebooks, SQL Warehouses, Delta Lake, Bronze / Silver / Gold medallion layers |
+| **Domain Knowledge** | AML and Transaction Monitoring: customer, account, transaction, KYC / CDD, monitoring rules, thresholds, alerts, cases, lineage and auditability |
+| **Working Style** | Agile delivery, Jira, peer code review, Git-based version control, AI-assisted development with manual validation |
+| **Education** | Bachelor of Engineering - South China University of Technology |
+
+### Engagement Fit
+
+| Requirement | Demonstrated Experience |
+|---|---|
+| **Risk assessment data analysis** | Analysed customer, account, transaction, monitoring-rule, alert and case datasets to support AML / Transaction Monitoring analysis and investigation. |
+| **Databricks delivery** | Builds and maintains reusable Databricks Notebooks and Databricks SQL / Spark SQL queries for profiling, transformation, validation and exception analysis across SQL Warehouses and Delta Lake tables. |
+| **Data engineering** | Works across Delta Lake Bronze / Silver / Gold layers, building notebook-based transformation and validation logic that moves data from raw source extracts through to analytical and reporting datasets. |
+| **SQL depth** | Joins, CTEs, CASE logic, aggregations, window functions, deduplication and latest-record selection across large analytical datasets. |
+| **Data quality & reconciliation** | Completeness, uniqueness, validity, referential integrity, duplicate and null checks, plus record-count and monetary-total reconciliation between source and downstream datasets. |
+| **Source-to-target validation** | Runs source-to-target checks covering missing and extra records, key mismatches and value variances, with documented exception analysis. |
+| **Query performance** | Execution-plan review, early filtering, column pruning, join and aggregation strategy, partition / shuffle awareness and skew analysis. |
+| **Version control & agile** | Git and GitHub for source control and change history, GitHub Copilot for query drafting and documentation, Jira-driven agile delivery and code review. |
+| **Auditability** | Traceability, lineage awareness, issue triage and root-cause analysis on data exceptions. |
+
+### Technical Skills
+
+| Area | Skills & Tools |
+|---|---|
+| **Data Analytics & SQL** | SQL, Databricks SQL, Spark SQL, joins, CTEs, CASE, aggregations, window functions, deduplication, profiling, reconciliation |
+| **Azure Databricks** | Databricks Notebooks, SQL Warehouses, Spark fundamentals, PySpark fundamentals, Delta Lake, Bronze / Silver / Gold layers |
+| **Data Engineering** | Notebook-based transformation and validation pipelines, medallion layer progression, latest-record and deduplication logic, source-to-target data movement, analytical dataset preparation |
+| **Query Performance** | Execution-plan review, early filtering, column pruning, join strategy, partition / shuffle awareness, skew analysis, aggregation optimisation |
+| **Data Quality & AML** | Completeness, uniqueness, validity, referential integrity, record-count and amount reconciliation, AML / TM, KYC / CDD, alerts, cases |
+| **Development & DevOps** | Git, GitHub, GitHub Copilot, Visual Studio Code, CI/CD, code review, Jira, Agile |
+| **Data Modelling** | Relational data modelling, customer / account / transaction entities, object relationships, analytical data structures |
+| **Investigation & Controls** | Exception analysis, traceability, auditability, source-to-target validation, issue triage, root-cause analysis |
+| **Enterprise Platforms** | Salesforce, SOQL, Apex, batch / scheduled jobs, REST / SOAP APIs, OAuth 2.0, Data Loader |
+
+### Selected Engagements
+
+#### Financial Institution - AML Data Analytics & Transaction Monitoring
+
+**Environment:** Azure Databricks | Databricks SQL | Spark SQL | Databricks Notebooks | Git | GitHub Copilot
+
+- Analysed customer, account, transaction, monitoring-rule, alert and case datasets in Azure Databricks to support AML / Transaction Monitoring analysis and investigation.
+- Developed reusable Databricks Notebooks and SQL / Spark SQL queries using joins, CTEs, CASE, aggregations, window functions and deduplication logic for profiling, transformation, validation and exception analysis.
+- Performed source-to-target data quality and reconciliation checks covering record counts, monetary totals, missing and extra records, duplicates, nulls and key mismatches.
+- Reviewed query execution behaviour and improved performance through early filtering, column pruning, join and aggregation optimisation and partition / shuffle awareness.
+- Used Git for source control and GitHub Copilot to accelerate query and notebook development, refactoring, documentation and test-query creation, with manual validation before integration.
+
+#### Insurance Company - Enterprise Data Analytics, Data Quality & Reconciliation
+
+**Environment:** Azure Databricks | Databricks SQL | Spark SQL | Delta Lake | Git | GitHub Copilot
+
+- Analysed customer, policy, transaction and operational datasets using Databricks SQL and notebooks to support reporting, investigation and data-quality requirements.
+- Built reusable SQL queries for extraction, profiling, transformation, validation, latest-record selection and reconciliation across source and downstream datasets.
+- Implemented checks for completeness, uniqueness, validity, referential integrity, duplicates, business-rule compliance, missing records, value mismatches and count / amount variances.
+- Analysed filters, joins, aggregations, partitions, shuffle and skew to reduce unnecessary processing and improve query efficiency.
+- Maintained analytics code and notebook changes in Git, with AI-assisted drafting and technical documentation.
+
+#### Financial Services Company - CRM Data Model & Integration
+
+**Environment:** Salesforce | SOQL | Apex | Batch Jobs | REST APIs | Git
+
+- Designed and enhanced enterprise data models, object relationships and data structures supporting customer and operational business processes.
+- Developed queries to retrieve, analyse, validate and troubleshoot data across related objects and business entities.
+- Built REST API integrations and batch / scheduled processing for large data updates and cross-system data synchronisation.
+- Implemented validation rules and business-rule controls to improve data accuracy, integrity, consistency and traceability.
+- Investigated data issues by tracing records across objects, integration payloads, batch processes and downstream dependencies.
+
+#### Telecommunications Company - Customer, Order & Product Data Platform
+
+**Environment:** Salesforce | SOQL | Apex | REST APIs | Batch Processing | Git
+
+- Redesigned enterprise order and product data models to support multi-product processes, scalable relationships and consistent downstream data handling.
+- Developed retrieval and processing logic across customer, product, order, subscription and service entities.
+- Integrated external operational data through REST APIs with validation logic to maintain consistent cross-system records.
+- Investigated data inconsistencies across order status, customer relationships, inventory and service records and implemented corrective validation controls.
+
+### Education & Recognition
+
+| Item | Detail |
+|---|---|
+| **Education** | Bachelor of Engineering - South China University of Technology |
+| **Additional** | Earlier software development experience across enterprise application delivery, integration, database-driven systems and client-facing technical implementation |
+
+---
