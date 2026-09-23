@@ -3,12 +3,12 @@ h1. Consultant Profiles - Risk Assessment Data & Databricks Delivery
 {info}Confidential candidate profiles - for client evaluation only. Expand a candidate below to view the full profile.{info}
 
 h2. Candidate Summary
-||Candidate||Proposed Role||Databricks / Spark||Risk & Data Domain||Positioning||
+||Candidate||Proposed Role||Databricks / Query Experience||Risk & Data Domain||Positioning||
 |*Boyang (Bryan) Li*|Senior Data / Analytics Engineer|Hands-on: Databricks / PySpark, Apache Spark, dbt, Azure Data Factory|Fraud analytics, credit risk scoring, model monitoring and governance|Senior data platform and risk analytics engineering|
 |*Cynthia Yang*|Data Engineer / Risk Data Analyst|Working knowledge: Databricks, Spark SQL, Delta Lake; Fabric Data Engineer certified; hands-on Synapse and ETL|Counterparty credit risk model validation, data lineage, input / output reconciliation; FRM|Primary - risk validation, lineage and reconciliation|
-|*Hongliang Wang*|Platform Engineer within the data team|Ramp-up required|Digital banking platforms, release governance, DevSecOps controls|Engineering practice, CI/CD and release governance|
+|*Hongliang Wang*|Platform Engineer within the data team|SQL (Oracle, MySQL); Python; pipeline automation with GitHub Actions|Digital banking platforms, release governance, DevSecOps controls|Engineering practice, CI/CD and release governance|
 |*Shun Huo*|Data Analyst - Risk Assessment & AML Data|Hands-on: Databricks SQL, Spark SQL, Notebooks, Delta Lake medallion layers|AML / Transaction Monitoring, KYC / CDD, data quality and reconciliation|Primary - Databricks analysis and AML data quality|
-|*Yuqi Zhong*|Cloud / Platform Engineer within the data team|Ramp-up required; provisioned Azure infrastructure for data engineering team projects|Client due diligence and commercial credit risk (banking); patch and vulnerability control compliance|Infrastructure controls, auditable operations and platform support|
+|*Yuqi Zhong*|Cloud / Data Platform Engineer within the data team|Provisioned Azure infrastructure for data engineering team projects; Azure Monitor and Log Analytics|Client due diligence and commercial credit risk (banking); patch and vulnerability control compliance|Infrastructure controls, auditable operations and platform support|
 
 h2. Candidate Profiles
 
@@ -158,7 +158,7 @@ h2. {color:#FFFFFF}*Hongliang Wang*{color}
 
 h4. Profile Snapshot
 ||Item||Detail||
-|*Proposed Role*|Platform Engineer within a data engineering team - pipeline automation, CI/CD, release governance and environment controls, with ramp-up onto Databricks and Spark|
+|*Proposed Role*|Platform Engineer within a data engineering team - SQL, pipeline automation, CI/CD, release governance and environment controls|
 |*Location*|Toronto, Ontario|
 |*Experience*|7\+ years in cloud-native software engineering and DevOps, largely in Canadian banking environments|
 |*Core Platform*|GitHub / GitHub Actions, CI/CD pipelines, Terraform, Kubernetes, Docker, Azure and GCP; Python and SQL (Oracle, MySQL)|
@@ -168,13 +168,12 @@ h4. Profile Snapshot
 
 h4. Engagement Fit
 ||Requirement||Demonstrated Experience||
+|*SQL & query experience*|Hands-on SQL across Oracle SQL and MySQL in enterprise banking systems; Python and SQL are working languages.|
 |*Pipeline automation*|Designs and operates automated build, test and release pipelines in GitHub Actions, including artifact repository integration, curation rules and automated security policy gates - directly transferable to orchestrating and productionising data workflows.|
-|*Python & SQL foundations*|Python and SQL are working languages; hands-on with Oracle SQL and MySQL in enterprise banking systems.|
 |*Environment & release governance*|Built governed, auditable promotion paths across environments for multi-application migrations, with version control discipline and security scanning embedded in the pipeline.|
 |*Infrastructure as code*|Terraform and Kubernetes for reproducible, version-controlled infrastructure - the same control model applied to data platform provisioning.|
 |*Cloud migration in banking*|Contributed to a zero-incident Azure cloud migration of core digital banking workloads, partnering with cloud operations and leadership on infrastructure security and DevOps strategy.|
 |*Agile delivery practice*|Mentors developers on architectural standards and CI/CD practice; works across engineering and operations to shorten and stabilise delivery cycles.|
-|*Databricks & Spark*|No prior Databricks, Spark or analytics engineering experience. Proposed as a platform engineer alongside the data team, with a defined ramp-up period on Databricks, Spark SQL and PySpark.|
 
 h4. Technical Skills
 ||Area||Skills & Tools||
@@ -184,7 +183,6 @@ h4. Technical Skills
 |*Backend & Microservices*|Spring Boot, Node.js, Express, microservices, backend-for-frontend architecture, RESTful APIs|
 |*Frontend Frameworks*|Angular, React, Redux, Webpack, responsive design|
 |*Databases*|Oracle SQL, MySQL|
-|*Ramp-up Required*|Databricks, Spark SQL, PySpark, Delta Lake, analytics engineering practice|
 
 h4. Selected Engagements
 
@@ -296,7 +294,7 @@ h4. Education & Recognition
 |*Additional*|Earlier software development experience across enterprise application delivery, integration, database-driven systems and client-facing technical implementation|
 {expand}
 
-{expand:title=Yuqi Zhong — Cloud / Platform Engineer within the data team}
+{expand:title=Yuqi Zhong — Cloud / Data Platform Engineer within the data team}
 {panel:bgColor=#1F3A5F|borderColor=#1F3A5F|borderStyle=solid}
 h2. {color:#FFFFFF}*Yuqi Zhong*{color}
 {color:#D6E0EC}Cloud & Platform Engineer - Infrastructure Controls, Automation and Data Platform Support{color}
@@ -304,7 +302,7 @@ h2. {color:#FFFFFF}*Yuqi Zhong*{color}
 
 h4. Profile Snapshot
 ||Item||Detail||
-|*Proposed Role*|Cloud / Platform Engineer within a data engineering team - infrastructure provisioning, control compliance and automation, with ramp-up onto Databricks and Spark|
+|*Proposed Role*|Cloud / Data Platform Engineer within a data engineering team - infrastructure provisioning, control compliance, monitoring and automation|
 |*Location*|Markham, Ontario (Greater Toronto Area)|
 |*Experience*|4 years cloud infrastructure engineering in regulated financial services, plus earlier front-line banking experience in commercial credit and client due diligence|
 |*Core Platform*|Microsoft Azure, Terraform, Packer, Azure DevOps, Qualys, Azure Update Manager, Azure Monitor, Log Analytics, PowerShell, Bash|
@@ -322,7 +320,6 @@ h4. Engagement Fit
 |*Pipelines & infrastructure as code*|Built a golden-image pipeline with Packer, custom scripts and Azure DevOps across Windows Server and RHEL, ensuring deployments start from the latest security-hardened baseline.|
 |*Version control & CI/CD*|GitHub repository and permission management including branching and tagging; implemented CI/CD for automated application deployment.|
 |*Quantitative foundation*|Bachelor of Mathematics; revenue, forecast and portfolio analysis in a banking setting.|
-|*Databricks & Spark*|No prior Databricks, Spark or analytics engineering experience. Proposed as a platform engineer alongside the data team, with a defined ramp-up period on Databricks, Spark SQL and PySpark.|
 
 h4. Technical Skills
 ||Area||Skills & Tools||
@@ -333,7 +330,6 @@ h4. Technical Skills
 |*Scripting & Automation*|PowerShell, Bash, automated patch cycles and reporting|
 |*Development & CI/CD*|GitHub, CI/CD pipelines, branching and tagging, React, serverless services, GCP, Firebase, MongoDB Atlas|
 |*Banking & Risk*|Client due diligence, commercial credit risk evaluation, financial statement review, risk-rated portfolio management, governance reporting|
-|*Ramp-up Required*|Databricks, Spark SQL, PySpark, Delta Lake, analytics engineering practice|
 
 h4. Selected Engagements
 
