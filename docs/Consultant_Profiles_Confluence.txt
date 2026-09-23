@@ -8,6 +8,7 @@ h2. Candidate Summary
 |*Cynthia Yang*|Data Engineer / Risk Data Analyst|Working knowledge: Databricks, Spark SQL, Delta Lake; Fabric Data Engineer certified; hands-on Synapse and ETL|Counterparty credit risk model validation, data lineage, input / output reconciliation; FRM|Primary - risk validation, lineage and reconciliation|
 |*Hongliang Wang*|Platform Engineer within the data team|Ramp-up required|Digital banking platforms, release governance, DevSecOps controls|Engineering practice, CI/CD and release governance|
 |*Shun Huo*|Data Analyst - Risk Assessment & AML Data|Hands-on: Databricks SQL, Spark SQL, Notebooks, Delta Lake medallion layers|AML / Transaction Monitoring, KYC / CDD, data quality and reconciliation|Primary - Databricks analysis and AML data quality|
+|*Yuqi Zhong*|Cloud / Platform Engineer within the data team|Ramp-up required; provisioned Azure infrastructure for data engineering team projects|Client due diligence and commercial credit risk (banking); patch and vulnerability control compliance|Infrastructure controls, auditable operations and platform support|
 
 h2. Candidate Profiles
 
@@ -293,6 +294,75 @@ h4. Education & Recognition
 ||Item||Detail||
 |*Education*|Bachelor of Engineering - South China University of Technology|
 |*Additional*|Earlier software development experience across enterprise application delivery, integration, database-driven systems and client-facing technical implementation|
+{expand}
+
+{expand:title=Yuqi Zhong — Cloud / Platform Engineer within the data team}
+{panel:bgColor=#1F3A5F|borderColor=#1F3A5F|borderStyle=solid}
+h2. {color:#FFFFFF}*Yuqi Zhong*{color}
+{color:#D6E0EC}Cloud & Platform Engineer - Infrastructure Controls, Automation and Data Platform Support{color}
+{panel}
+
+h4. Profile Snapshot
+||Item||Detail||
+|*Proposed Role*|Cloud / Platform Engineer within a data engineering team - infrastructure provisioning, control compliance and automation, with ramp-up onto Databricks and Spark|
+|*Location*|Markham, Ontario (Greater Toronto Area)|
+|*Experience*|4 years cloud infrastructure engineering in regulated financial services, plus earlier front-line banking experience in commercial credit and client due diligence|
+|*Core Platform*|Microsoft Azure, Terraform, Packer, Azure DevOps, Qualys, Azure Update Manager, Azure Monitor, Log Analytics, PowerShell, Bash|
+|*Domain Knowledge*|Client due diligence, commercial credit risk evaluation, risk-rated portfolio reporting, vulnerability and patch control compliance, auditable operations|
+|*Working Style*|Automation-first; builds repeatable remediation and reporting workflows and services requests from partner teams|
+|*Education*|Bachelor of Mathematics - Sun Yat-Sen University; Ontario Postgraduate Certificate - Humber College|
+
+h4. Engagement Fit
+||Requirement||Demonstrated Experience||
+|*Data platform support*|Provisioned and maintained Azure infrastructure with Terraform in support of Digital Banking and Data Engineering team projects.|
+|*Risk & due diligence background*|Conducted client due diligence and annual credit risk evaluation for large enterprise clients, managing a risk-rated portfolio of 20\+ clients with up to $2 billion in exposure.|
+|*Governance reporting*|Produced monthly and quarterly risk and portfolio status reports for senior management in support of internal governance and oversight.|
+|*Control compliance & auditability*|Owned vulnerability and patch remediation across \~300 Windows and Linux VMs spanning non-production, production and DR, in a banking environment where uptime, auditability and control compliance are mandatory.|
+|*Automation & scripting*|PowerShell and Bash automation for patch cycles, remediation workflows and reporting; reduced the monthly maintenance window from 6 hours to 2 hours.|
+|*Pipelines & infrastructure as code*|Built a golden-image pipeline with Packer, custom scripts and Azure DevOps across Windows Server and RHEL, ensuring deployments start from the latest security-hardened baseline.|
+|*Version control & CI/CD*|GitHub repository and permission management including branching and tagging; implemented CI/CD for automated application deployment.|
+|*Quantitative foundation*|Bachelor of Mathematics; revenue, forecast and portfolio analysis in a banking setting.|
+|*Databricks & Spark*|No prior Databricks, Spark or analytics engineering experience. Proposed as a platform engineer alongside the data team, with a defined ramp-up period on Databricks, Spark SQL and PySpark.|
+
+h4. Technical Skills
+||Area||Skills & Tools||
+|*Cloud Infrastructure*|Microsoft Azure, Azure Virtual Machines, Windows Server, RHEL, non-production / production / DR environments|
+|*Infrastructure as Code*|Terraform, Packer, golden-image pipelines, Azure DevOps|
+|*Vulnerability & Patch Management*|Qualys, Azure Update Manager, remediation workflows, security-hardened baselines|
+|*Monitoring*|Azure Monitor, Log Analytics|
+|*Scripting & Automation*|PowerShell, Bash, automated patch cycles and reporting|
+|*Development & CI/CD*|GitHub, CI/CD pipelines, branching and tagging, React, serverless services, GCP, Firebase, MongoDB Atlas|
+|*Banking & Risk*|Client due diligence, commercial credit risk evaluation, financial statement review, risk-rated portfolio management, governance reporting|
+|*Ramp-up Required*|Databricks, Spark SQL, PySpark, Delta Lake, analytics engineering practice|
+
+h4. Selected Engagements
+
+*Canadian Digital Bank - Cloud Engineer (Contract)*
+_Environment: Microsoft Azure \| Terraform \| Packer \| Azure DevOps \| Qualys \| Azure Update Manager \| PowerShell \| Bash_
+* Managed vulnerability and patch remediation across \~300 Windows and Linux VMs using Qualys and Azure Update Manager, spanning non-production, production and DR environments.
+* Reduced the monthly patching maintenance window from 6 hours to 2 hours across all three environments through process and automation improvements.
+* Provisioned and maintained Azure infrastructure using Terraform, supporting Digital Banking and Data Engineering team projects.
+* Built a golden-image pipeline using Packer, custom scripts and Azure DevOps covering Windows Server 2016 to 2025 and RHEL 8 and 9, reducing baseline vulnerability exposure at provisioning time.
+* Wrote PowerShell and Bash scripts to automate patch cycles and remediation workflows servicing requests from partner teams.
+
+*Technology Start-up - Full Stack Application Developer*
+_Environment: GCP \| Firebase \| MongoDB Atlas \| React \| GitHub CI/CD_
+* Built serverless services on GCP, Firebase and MongoDB Atlas, and managed, monitored and improved cloud service performance.
+* Automated security checks on cloud functions, reducing content management time by 80%.
+* Implemented a GitHub CI/CD pipeline for automated application deployment and managed repositories, permissions, branching and tagging.
+* Developed and optimised large-scale web and mobile applications for speed and scalability.
+
+*State-Owned Commercial Bank (Asia) - Account Manager, Commercial Banking*
+_Environment: Commercial Credit \| Client Due Diligence \| Portfolio Risk Reporting_
+* Managed commercial relationships and conducted client due diligence for large state-owned enterprises, overseeing a risk-rated portfolio of 20\+ clients representing up to $2 billion in real estate exposure.
+* Reviewed client financial statements annually as part of credit risk evaluation, determining creditworthiness prior to approval.
+* Approved and advanced financing facilities within defined risk parameters and approval timelines.
+* Produced monthly and quarterly risk and portfolio status reports for senior management, supporting internal governance and oversight.
+* Conducted revenue and forecast analysis to support portfolio risk management.
+
+h4. Education & Recognition
+||Item||Detail||
+|*Education*|Bachelor of Mathematics - Sun Yat-Sen University, Guangzhou; Ontario Postgraduate Certificate - Humber College, Toronto; Full Stack Development Certificate - University of Toronto|
 {expand}
 
 h2. Commercial Notes (all candidates)
